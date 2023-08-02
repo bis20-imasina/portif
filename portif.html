@@ -1,144 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Innocent Masina</title>
-	<link rel="stylesheet" type="text/css" href="portif.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Innocent Masina</title>
+    <link rel="stylesheet" type="text/css" href="portif.css">
+    <head>
+    <!-- Other meta tags and stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 
-        
+    <meta name="description" content="Personal portfolio website of Innocent Masina, a full-stack developer.">
+
 </head>
 <body>
 
-   <header>
-   	
-   	<div class="logo">
-		<img src="logo.jpg" alt="inno-logo">
-	</div>
+    <header>
+        
+        <div class="logo">
+            <img src="logo.jpg" alt="inno-logo">
+        </div>
 
-	<button class="nav-toggle" arial-label="toggle navigation">
-		<span class="hamburger"></span>
-	</button>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
 
-	<nav class="nav">
-		<ul class="nav__list">
-			<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-		<li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
-		<li class="nav__item"><a href="#About" class="nav__link">About me</a></li>
-		<li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#About" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
 
-	</ul>
-	</nav>
+    </header>
 
-   </header>
-	
+    <!-- Introduction -->
+    <section class="section__title--intro">
+        <h1>Hi, I am <strong>Innocent Masina</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Full-stack Developer</p>
+        <img src="inno.png" alt="picture of Innocent Masina">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>DevOps and Deployment</h3>
+                <p>A developer's job doesn't end with writing code. I have experience in deploying applications using platforms like AWS, Heroku, and Docker, along with setting up CI/CD pipelines to streamline the development and deployment process. This ensures that my projects are not only feature-rich but also delivered with efficiency and reliability.</p>
+            </div>
+            <!-- /service -->
+
+            <div class="service">
+                <h3>Database Expertise</h3>
+                <p>Data is the backbone of any successful application, and I understand the importance of choosing the right database solution for a given project. Whether it's SQL databases like MySQL or PostgreSQL, or NoSQL databases like MongoDB or Firebase, I am comfortable working with various database systems to ensure data integrity and optimal performance.</p>
+            </div>
+            <!-- /service -->
+
+            <div class="service">
+                <h3>Full-Stack Proficiency</h3>
+                <p>As a full-stack developer, I take pride in my ability to work with both front-end and back-end technologies. I'm well-versed in modern front-end frameworks like React, Angular, and Vue.js, and I have a keen eye for designing intuitive and responsive user interfaces. On the server-side, I excel in utilizing Node.js, Django, and Ruby on Rails to build robust and scalable back-end systems.</p>
+            </div>
+            <!-- /service -->
+        </div>
+        <!-- /services -->
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="About">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div style="padding-top: 5%;">
+            <img src="inno1.jpg" alt="Innocent Masina's full image" class="pic">
+            <p>I'm a passionate and highly skilled full-stack developer with a love for creating dynamic and efficient web applications.</p>
+            <p>My journey in the world of programming began several years ago, and ever since then, I've been dedicated to honing my skills and staying up-to-date with the latest technologies in the rapidly evolving tech landscape.</p>
+        </div>
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+
+            <!-- Portfolio-item 0.1 -->
+            <a href="#" class="portfolio-item">
+                <img src="portfolio-0.1.png" alt="Portfolio 0.1" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio-item 0.2 -->
+            <a href="#" class="portfolio-item">
+                <img src="portfolio-0.2.png" alt="Portfolio 0.2" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio-item 0.3 -->
+            <a href="#" class="portfolio-item">
+                <img src="portfolio-0.3.png" alt="Portfolio 0.3" class="portfolio__img">
+            </a>
+
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a style="align-content: center;" href="mailto:webstermasina8@gmail.com" class="footer__link">webstermasina8@gmail.com</a>
+        
+        
+    <ul class="social-list">
+        <li><a href="#" class="social-icon"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+        <!-- Add other social media links and icons as needed -->
+    </ul>
 
 
-     <!-- Intriduction -->
-     <section class="section__title--intro">
-     		<h1>Hi, I am <strong>Innocent Masina</strong></h1>
-     		<p class="section__subtitle__subtitle--intro">Full-stack Developer</p>
-     		<img src="inno.png" alt="picture of Innocent Masina">
-     </section>
-
-
-    
-
-
-     <!-- My services -->
-     <section class="my-services" id="services">
-     	<h2 class="section__title__title--services">What I do</h2> 
-     	<div class="services">
-     		<div class="service">
-     			<h3>DevOps and Deployment</h3>
-     			<p>A developer's job doesn't end with writing code. I have experience in deploying applications using platforms like AWS, Heroku, and Docker, along with setting up CI/CD pipelines to streamline the development and deployment process. This ensures that my projects are not only feature-rich but also delivered with efficiency and reliability.</p>
-     		</div> <!--/ service -->
-
-
-     		<div class="service">
-     			<h3>Database Expertise</h3>
-     			<p>Data is the backbone of any successful application, and I understand the importance of choosing the right database solution for a given project. Whether it's SQL databases like MySQL or PostgreSQL, or NoSQL databases like MongoDB or Firebase, I am comfortable working with various database systems to ensure data integrity and optimal performance..</p>
-     		</div> <!--/ service -->
-
-
-
-     		<div class="service">
-     			<h3>Full-Stack Proficiency</h3>
-     			<p>As a full-stack developer, I take pride in my ability to work with both front-end and back-end technologies. I'm well-versed in modern front-end frameworks like React, Angular, and Vue.js, and I have a keen eye for designing intuitive and responsive user interfaces. On the server-side, I excel in utilizing Node.js, Django, and Ruby on Rails to build robust and scalable back-end systems.</p>
-     		</div> <!--/ service -->
-     	</div> <!-- / services -->
-
-     	<a href="#work" class="btn">My work</a>
-
-     </section>
-
-
-
-     	
-     	<!--About me -->
-     	<section class="about-me" id="About">
-     		
-     		<h2 class="section__title section__title--about">Who I am</h2>
-     		<p class="section__subtitle section__subtitle--about"></p>
-
-
-
-     		<div  style="padding-top: 5%;">
-
-     			<img src="inno1.jpg" alt="inno's full image" class="pic">
-
-
-     			<p>I'm a passionate and highly skilled full-stack developer with a love for creating dynamic and efficient web applications. </p>
-
-     			<p>My journey in the world of programming began several years ago, and ever since then, I've been dedicated to honing my skills and staying up-to-date with the latest technologies in the rapidly evolving tech landscape.</p>
-     			
-     		</div>
-
-     		
-
-     	</section>
-     
-
-      <!-- My w0rk -->
-
-      <section class="my-work" id="work">
-      	<h2 class="section__title">My work</h2>
-      	<p class="section__subtitle">
-
-      	<div class="portifolio">
-
-      		<!--portifolio-item 0.1 -->
-      		<a href="#" class="portifolio-item">
-      			<img src="portifolio 0.1.png" alt="" class="portifolio__img">
-      		</a>
-
-      		<!--portifolio-item 0.2 -->
-      		<a href="#" class="portifolio-item">
-      			<img src="portifolio - 0.2.png" alt="" class="portifolio__img">
-      		</a>
-
-      		<!--portifolio-item 0.3 -->
-      		<a href="#" class="portifolio-item">
-      			<img src="portifolio0.3.png" alt="" class="portifolio__img">
-      		</a>
-
-      		<!--portifolio-item 0.4 -->
-      		<a href="#" class="portifolio-item">
-      			<img src="portifolio-0.4.jpg" alt="" class="portifolio__img">
-      		</a>
-      	</div>
-      </section>
-
-      <!--Footer -->
-      <footer>
-      	<a href="mailto:webstermasina8@gmail.com" class="footer__link">webstermasina8@gmail.com</a>
-      	<ul class="social-list">
-
-      	
-
-      	
-      </footer>
-
+    </footer>
 
 </body>
-</html> 
+</html>
